@@ -1,0 +1,110 @@
+body{
+    margin:0;
+    padding:0;
+   background-image: url("https://images.unsplash.com/photo-1570717173024-ec8081c8f8e9?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NTN8fG1vdGl2YXRpb25hbCUyMHByb2Zlc3Npb25hbHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60");
+   background-size: cover;
+   font-style:bold;
+   font-weight: 300;
+   }   
+   .loginbox{
+       position:absolute;
+       top:50%;
+       left:50%;
+       transform:translate(-50%,-50%);
+       width:400px;
+       box-sizing:border-box;
+       background:rgba(67, 107, 194, 0.61);
+       box-shadow:0 10px 20px rgba(187, 81, 197, 0.5);
+       border-radius:5px;
+       transition:.5s;
+      }
+      .loginbox:hover
+      {
+       box-shadow:0 10px 20px rgba(0,0,0,.5);
+       background:linear-gradient(lightblue,#5288d9);
+      }
+      .glass{
+        width:100%;
+        height:100%;
+        padding:10px;
+        box-sizing:border-box;
+        background:transparent;
+       border-radius:5px;
+       transition:.5s;
+       
+      }
+      
+      .user{
+       height:100px;
+       width:80px;
+       margin: 0 auto;
+       display:block;
+       top:-50px;
+       border-radius:30px;
+       margin-top:-30px;
+       margin-bottom:40px;
+      }
+      h2{
+      margin:0 auto;
+      padding:0 0 20px;
+      color:powderblue;
+      font-size:27px;
+      text-align:center;
+      }
+      .loginbox input{
+      width:100%;
+      margin-bottom:20px;
+      }
+      .loginbox input[type="text"],
+      .loginbox input[type="password"]
+      {
+       border:none;
+       border-bottom:2px solid #FFE5B4;
+       outline:none;
+       height:40px;
+       background:transparent;
+       font-size:16px;
+       padding-left:20px;
+       box-sizing:border-box;
+      }
+       ::placeholder{
+      color:paleturquoise;
+      }
+       .inputbox{
+       position:relative;
+      }
+       .id{
+       position:absolute;
+       top:20px;
+       color:palevioletred;
+      }
+      .loginbox input[type="submit"]
+      {
+       border:none;
+       outline:white;
+       height:40px;
+       cursor:pointer;
+       font-size:16px;
+       background:darkorchid;
+       color:white;
+       border-radius:20px;
+       cursor:pointer;
+       transition: .5s;
+      }
+      .loginbox input[type="submit"]:hover{
+        background-position:right;
+        transform:translate(3px);
+        color:deepskyblue;
+      }
+      .loginbox a{
+       color:powderblue;
+       font-size:15px;
+       font-weight:bold;
+       text-align:center;
+       text-decoration:none;
+      display:block;
+      }
+      .loginbox a:hover{
+        color:blue;
+        
+       }
